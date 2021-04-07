@@ -1,0 +1,17 @@
+.card-search {
+  background: #eaeaea;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 350px;
+  height: 60px;
+  border-radius: 5px;
+}
+
+.card-search span {
+  padding: 20px;
+  margin: 10px;
+}
+
+.searchInput {
+  width: 350px;
+}

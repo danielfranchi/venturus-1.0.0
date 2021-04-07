@@ -1,0 +1,13 @@
+.container-home {
+  background: #f7f3f7;
+  height: 100vh;
+}
+
+@media screen and (max-width: 500px) {
+  .container-home {
+    display: block;
+    max-width: 500px;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+}

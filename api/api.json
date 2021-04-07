@@ -1,0 +1,150 @@
+{
+  "team": [
+    {
+      "name": "Manchester United",
+      "description": "Manchester Squad",
+      "type": "real",
+      "formation": "3-5-2",
+      "site": "http://maschester.com",
+      "id": 1
+    },
+    {
+      "name": "Liverpool",
+      "description": "Liverpool Squad",
+      "formation": "3-5-2",
+      "site": "http://liverpool.com",
+      "id": 2
+    },
+    {
+      "name": "Barcelona",
+      "description": "Barcelona Squad",
+      "formation": "3-5-2",
+      "site": "http://barcelona.com",
+      "id": 3
+    },
+    {
+      "name": "São Paulo",
+      "description": "Brasil",
+      "formation": "3-5-2",
+      "site": "http://saopaulo.com",
+      "id": 4
+    },
+    {
+      "name": "Flamengo",
+      "description": "Brasil",
+      "formation": "3-5-2",
+      "site": "http://flamengo.com",
+      "id": 5
+    },
+    {
+      "name": "Real Madrid",
+      "description": "Spain",
+      "type": "real",
+      "formation": "5-4-1",
+      "site": "http://realmadrid.com",
+      "id": 6
+    },
+    {
+      "name": "Juventus",
+      "description": "Juventus Squad",
+      "type": "real",
+      "formation": "3-4-3",
+      "site": "http://juventus.com",
+      "id": 7
+    },
+    {
+      "name": "Bayern de Munique",
+      "description": "Bayern de Munique Squad",
+      "type": "real",
+      "formation": "3-4-3",
+      "site": "http://bayernmunique.com",
+      "id": 8
+    }
+  ],
+  "player": [
+    {
+      "team": "world team",
+      "player": "Rolado",
+      "nacionality": "Braisl",
+      "age": 44,
+      "id": 1
+    },
+    {
+      "team": "Barcelona",
+      "player": "Lionel Messi",
+      "nacionality": "Argentina",
+      "age": 33,
+      "id": 2
+    },
+    {
+      "team": "Barcelona",
+      "player": "Gerard Piqué",
+      "nacionality": "Espanha",
+      "age": 34,
+      "id": 3
+    },
+    {
+      "team": "Juventus",
+      "player": "Cristiano Ronaldo",
+      "nacionality": "Portugal",
+      "age": 27,
+      "id": 4
+    },
+    {
+      "team": "Juventus",
+      "player": "Gianluigi Buffon",
+      "nacionality": "Italia",
+      "age": 43,
+      "id": 5
+    },
+    {
+      "team": "Juventus",
+      "player": "Álvaro Morata",
+      "nacionality": "Espanha",
+      "age": 28,
+      "id": 6
+    },
+    {
+      "team": "world team",
+      "player": "Ronaldo Gaucho",
+      "nacionality": "Brasil",
+      "age": 41,
+      "id": 7
+    },
+    {
+      "team": "Real Madrid",
+      "player": "Karim Benzema",
+      "nacionality": "França",
+      "age": 33,
+      "id": 8
+    },
+    {
+      "team": "Real Madrid",
+      "player": "Luka Modrić",
+      "nacionality": "Croácia",
+      "age": 35,
+      "id": 9
+    },
+    {
+      "team": "liverpool ",
+      "player": "Salah",
+      "nacionality": "Egito",
+      "age": 28,
+      "id": 10
+    },
+    {
+      "team": "Tottenham",
+      "player": "Bale ",
+      "nacionality": "Reino Unido",
+      "age": 31,
+      "id": 11
+    },
+    {
+      "team": "Barcelona ",
+      "player": "Griezmann",
+      "nacionality": "França",
+      "age": 30,
+      "id": 12
+    }
+  ]
+}

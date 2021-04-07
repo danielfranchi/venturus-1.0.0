@@ -1,0 +1,18 @@
+.container {
+  background: white;
+  margin: 20px;
+  border-radius: 8px;
+  padding-bottom: 50px;
+}
+
+.team-title {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  padding: 20px;
+  margin-left: 32px;
+}
+
+h4 {
+  color: #9b9b9b;
+}

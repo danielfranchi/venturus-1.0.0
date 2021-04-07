@@ -1,0 +1,115 @@
+.myTeams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-content: start;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1000px;
+  background: white;
+  border-radius: 5px;
+}
+
+.myTeamsMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.myTeamsSelect {
+  padding: 10px;
+  margin: 2px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+tbody tr:hover {
+  background-color: #eee;
+}
+
+button {
+  outline-style: none;
+  background-color: white;
+  border: none;
+}
+
+.table {
+  display: grid;
+  align-content: start;
+}
+
+.table h2 {
+  grid-column: 1;
+  padding: 0px;
+}
+
+.tableDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.navLink {
+  background: #95347e;
+  color: white;
+  font-size: 30px;
+  width: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.teamsEdit {
+  background: #95347e;
+  color: white;
+  font-size: 12px;
+  width: 100px;
+  text-align: center;
+  border-radius: 2px;
+  padding: 5px;
+  margin: 8px;
+  cursor: pointer;
+}
+
+.myTeamsInput {
+  margin: 10px;
+  text-align: center;
+}
+
+.modal {
+  text-align: center;
+  border-radius: 8px;
+}
+
+.my-teams-button {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 500px) {
+  .myTeams {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .myTeamsTable {
+    max-width: 200%;
+  }
+
+  .tableDiv {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    max-width: 200%;
+  }
+}
